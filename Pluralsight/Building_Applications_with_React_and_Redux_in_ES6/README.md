@@ -1,4 +1,6 @@
-# Notes
+# Building Applications with React and Redux in ES6 by Cory House
+
+## Notes
 
 ### Issues and Solutions
 1. On first run we got error:
