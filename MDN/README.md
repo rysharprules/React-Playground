@@ -1,5 +1,5 @@
-# MDN - Mozilla Developer Network
-<img src="https://github.com/rysharprules/React-Playground/blob/master/MDN/mdnLogo.png" />
+# Mozilla Developer Network (MDN) web docs
+<img src="https://raw.githubusercontent.com/rysharprules/React-Playground/master/MDN/mdnLogo.png" /><br />
 <p>The following directories use code from the MDN network.</p>
 
 ## <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript</a>

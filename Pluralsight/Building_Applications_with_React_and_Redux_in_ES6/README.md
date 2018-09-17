@@ -1,4 +1,4 @@
-# Building Applications with React and Redux in ES6 by Cory House
+# <a href="https://app.pluralsight.com/library/courses/react-redux-react-router-es6/table-of-contents" target="_blank">Building Applications with React and Redux in ES6 by Cory House</a>
 
 ## Notes
 
