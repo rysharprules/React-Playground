@@ -22,10 +22,11 @@
         <tr>
             <td valign="top">4. React Component Approaches</td>
             <td>
+                <a href="https://github.com/rysharprules/React-Playground/blob/master/Pluralsight/Building_Applications_with_React_and_Redux_in_ES6/_ch4_React_Component_Approaches/HelloWorld_stateless_functional_component">Stateless Functional Component</a> Vs. <a href="https://github.com/rysharprules/React-Playground/blob/master/Pluralsight/Building_Applications_with_React_and_Redux_in_ES6/_ch4_React_Component_Approaches/HelloWorld_class">Class</a><br/>
                 9 Benefits of Stateless Functional Components:<br/><br/>
                 <ol>
                     <li>No class Needed</li>
-                    <li>Avoid `this` keyword - Simpler, plus avoidance of bind</li>
+                    <li>Avoid <code>this</code> keyword - Simpler, plus avoidance of bind</li>
                     <li>Enforced best practices - No state, so enforced statelessness</li>
                     <li>High signal-to-noise ratio - Less typing</li>
                     <li>Enhanced code completion / intellisense</li>
@@ -34,6 +35,12 @@
                     <li>Easy to test</li>
                     <li>Performance</li>
                 </ol>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">4. React Component Approaches</td>
+            <td>
+                <img src="https://raw.githubusercontent.com/rysharprules/React-Playground/master/Pluralsight/Building_Applications_with_React_and_Redux_in_ES6/_ch6_Intro_to_Redux/reduxFlow.png" />
             </td>
         </tr>
         <tr>
@@ -66,5 +73,16 @@
           </ol>
         </td>
         </tr>
+        <tr>
+        <td valign="top">9. Redux Flow</td>
+        <td>
+          <ul>
+            <li>Performing `bind(this)` in render is a performance issue as a new function is rendered on each render. Best practice is to place binds in constructor.</li>
+            <li>In ES6 you can omit the right hand side if they are the same (Short hand properties), e.g.:
+            <code>return {type: types.CREATE_COURSE_SUCCESS, course: course};</code> can be simplified to <code>return {type: types.CREATE_COURSE_SUCCESS, course};</code> </li>
+            <li>Spread syntax - Used in reducer, e.g. <code>return [...state, Object.assign({}, action.course)];</code> See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">MDN web docs</a> for more information.</li>
+            <li>Arrow syntax <code>=></code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">MDN web docs</a> and <a href="https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/">in-depth guide</a> from Mozilla Hacks</li>
+          </ul>
+        </td>
     </tbody>
 </table>
