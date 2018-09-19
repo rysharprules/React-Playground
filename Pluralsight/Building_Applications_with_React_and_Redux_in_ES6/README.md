@@ -2,6 +2,8 @@
 
 ## Notes
 
+- <a href="https://github.com/coryhouse">Cory House on GitHub</a> - see pluralsight-redux-starter and pluralsight-redux-app-used-to-build-script.
+
 ### Issues and Solutions
 1. On first run we got error:
 `babel-node not recognized as internal or external command`
@@ -77,7 +79,7 @@
         <td valign="top">9. Redux Flow</td>
         <td>
           <ul>
-            <li>Performing `bind(this)` in render is a performance issue as a new function is rendered on each render. Best practice is to place binds in constructor.</li>
+            <li>Performing <code>bind(this)</code> in render is a performance issue as a new function is rendered on each render. Best practice is to place binds in constructor.</li>
             <li>In ES6 you can omit the right hand side if they are the same (Short hand properties), e.g.:
             <code>return {type: types.CREATE_COURSE_SUCCESS, course: course};</code> can be simplified to <code>return {type: types.CREATE_COURSE_SUCCESS, course};</code> </li>
             <li>Spread syntax - Used in reducer, e.g. <code>return [...state, Object.assign({}, action.course)];</code> See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">MDN web docs</a> for more information.</li>

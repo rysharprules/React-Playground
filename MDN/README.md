@@ -19,7 +19,7 @@
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/oojs/introduction">Introduction</a>
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/oojs/json">JSON</a>
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/oojs/bouncing-balls">Bouncing Balls</a>
-- Advanced
+- <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/oojs/advanced">Advanced</a>
 
 ### <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/apis">Application Programming Interfaces (API)s</a>
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/JavaScript/apis/client-side-storage">Client-side Storage</a>
