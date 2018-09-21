@@ -1,6 +1,6 @@
 # React Playground
 
-JavaScript, React, Redux and Jasmine tutorial code and examples
+JavaScript, React and Redux tutorial code and examples
 
 ### My note pages
 

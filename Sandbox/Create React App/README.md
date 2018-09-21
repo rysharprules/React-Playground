@@ -7,7 +7,8 @@
 1. Run `create-react-app helloworld`
 1. `cd helloworld`
 1. `npm start`
-1. ![Create React App](https://raw.githubusercontent.com/rysharprules/React-Playground/master/Sandbox/Create%20React%20App/hello-world.png)
+ 
+![Create React App](https://raw.githubusercontent.com/rysharprules/React-Playground/master/Sandbox/Create%20React%20App/hello-world.png)
 
 Example: Creating Todo List app skeleton:<br />
 ![Create React App](https://raw.githubusercontent.com/rysharprules/React-Playground/master/Sandbox/Create%20React%20App/create-react-app.png)
