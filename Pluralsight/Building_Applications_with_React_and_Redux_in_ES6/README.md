@@ -12,6 +12,16 @@
 `\Pluralsight\Building' is not recognized as an internal or external command`
 <br/>The problem is due to the use of spacing in the directory name. The fix was to replace spaces with underscores.
 
+### Atom IDE Setup & Configuration (on Windows)
+#### Install
+1. Go to <a href="https://atom.io/">https://atom.io/</a>, download and follow the installation instructions
+#### Configuration
+1. Go to Settings (File > Settings)
+1. Go to Install
+1. Select Packages
+1. Search for and install <a href="https://atom.io/packages/platformio-ide-terminal">platformio-ide-terminal</a>
+1. Search for and install <a href="https://atom.io/packages/react">react</a>
+
 ### General Notes
 <table>
     <thead>
@@ -84,7 +94,7 @@
             <code>return {type: types.CREATE_COURSE_SUCCESS, course: course};</code> can be simplified to <code>return {type: types.CREATE_COURSE_SUCCESS, course};</code> </li>
             <li>Spread syntax - Used in reducer, e.g. <code>return [...state, Object.assign({}, action.course)];</code> See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax">MDN web docs</a> for more information.</li>
             <li>Arrow syntax <code>=></code> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions">MDN web docs</a> and <a href="https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/">in-depth guide</a> from Mozilla Hacks</li>
-            <li><strong>Important:</strong> Redux passes the elements down via props rather than state so this.state.items becomes this.props.items (see <a href="https://github.com/rysharprules/React-Playground/blob/master/Sandbox/Todo%20List/todolist_redux/src/TodoList.js">Redux Todo List</a>, line 46). This is mentioned in video 09 (Connect Container).
+            <li><strong>Important:</strong> Redux passes the elements down via props rather than state so this.state.items becomes this.props.items (see <a href="https://github.com/rysharprules/React-Playground/blob/master/Sandbox/Todo%20List/todolist_redux/src/components/TodoList.js">Redux Todo List</a>, line 46). This is mentioned in video 09 (Connect Container).
           </ul>
         </td>
         </tr>
