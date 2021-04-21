@@ -4,6 +4,7 @@ JavaScript, React and Redux tutorial code and examples
 
 ### My note pages
 
+- <a href="https://github.com/rysharprules/React-Playground/tree/master/notes/">Notes</a> - My personal notes pages
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/Sandbox/">Sandbox</a> - Sandbox code examples
 - <a href="https://github.com/rysharprules/React-Playground/tree/master/MDN/">Mozilla Developer Network (MDN)</a>
 - <a href="https://github.com/rysharprules/Coding-Problems-and-Solutions/tree/master/HackerRank/10%20Days%20of%20Javascript">HackerRank - 10 Days of JavaScript solutions</a>
